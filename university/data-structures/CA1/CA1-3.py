@@ -1,3 +1,5 @@
+
+
 def main():
     inp_li = int(input())//4
     sentence = input()
@@ -73,14 +75,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-
-
-
-
-

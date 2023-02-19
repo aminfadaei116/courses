@@ -1,3 +1,5 @@
+
+
 def main():
     capacity,number = input().split()
     price=list(map(int,input().split(' ')))

@@ -1,3 +1,5 @@
+
+
 def main():
 	n=int(input())
 	moveTower(n,"A","C","B")

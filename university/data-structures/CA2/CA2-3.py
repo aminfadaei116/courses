@@ -1,3 +1,5 @@
+
+
 def main():
     n=input()
     my_list= (input().split(' '))
@@ -25,3 +27,4 @@ def find (word, result):
 
 if __name__ == '__main__':
     main()
+    
