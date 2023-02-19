@@ -1,5 +1,7 @@
 import collections
 import operator
+
+
 def main():
     inputcode = ((input().split()))
     code=((list(map(int, input().split()))))

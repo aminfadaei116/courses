@@ -6,7 +6,6 @@ Created on Thu Jan  9 18:30:13 2020
 """
 
 #This class represents a directed graph using adjacency matrix representation 
-
 def zeros_list(n):
     temp = []
     for i in range(n):
@@ -20,7 +19,7 @@ def last_num_zero(n):
     return temp
 
 
-def fuck_this(m,n):
+def my_fun(m,n):
     temp = []
     for i in range(m+1):
         temp.append(0)
@@ -105,34 +104,38 @@ class Graph:
   
         return max_flow 
 
-
-info = list(map(int, input().split()))
-n, m = info[0], info[1]
-number = int(input())
-data = []
-for i in range(number):
-    data.append(list(map(int, input().split())))
-
-
-graph = []
-temp = zeros_list(n+m+2)
-for i in range(1, m+1):
-    temp[i] = 1
-
-graph.append(temp)
-for i in range(m):
-    graph.append(fuck_this(m,n))
-
-for i in range(n):
-    graph.append(last_num_zero(n+m+2))
-
-graph.append(zeros_list(n+m+2))
+def main():
+    info = list(map(int, input().split()))
+    n, m = info[0], info[1]
+    number = int(input())
+    data = []
+    for i in range(number):
+        data.append(list(map(int, input().split())))
 
 
-for i in range(len(data)):
-    graph[data[i][1]+1][1+m+data[i][0]] = 0
-g = Graph(graph) 
-  
-source = 0; sink = n+m+1
-   
-print (int(g.FordFulkerson(source, sink)))
+    graph = []
+    temp = zeros_list(n+m+2)
+    for i in range(1, m+1):
+        temp[i] = 1
+
+    graph.append(temp)
+    for i in range(m):
+        graph.append(my_fun(m,n))
+
+    for i in range(n):
+        graph.append(last_num_zero(n+m+2))
+
+    graph.append(zeros_list(n+m+2))
+
+
+    for i in range(len(data)):
+        graph[data[i][1]+1][1+m+data[i][0]] = 0
+    g = Graph(graph) 
+    
+    source = 0; sink = n+m+1
+    
+    print (int(g.FordFulkerson(source, sink)))
+
+if __name__ == '__main__':
+    main()
+    

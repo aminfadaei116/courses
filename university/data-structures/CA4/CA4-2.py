@@ -1,4 +1,6 @@
 import heapq
+
+
 def main():
     N = int(input())
     roomfather = [int(i) for i in input().split()]
@@ -12,8 +14,6 @@ def main():
 
     for i in range(N-1):
         list[roomfather[i]].child.append(i+2)
-
-
 
 
     for i in range(number):
@@ -40,15 +40,5 @@ class tree(object):
             list[self.child[i]].toggle(list)
 
 
-
-
-
-
 if __name__ == '__main__':
     main()
-
-
-
-
-
-

@@ -1,3 +1,5 @@
+
+
 def main():
     N = int(input())
     gift = [0]
@@ -17,12 +19,6 @@ def main():
     sortlist = [0]
     inorder(node[1], sortlist)
     print(minSwaps(sortlist))
-
-
-
-
-# Python3 program to find  minimum number
-# of swaps required to sort an array
 
 # Function returns the minimum
 # number of swaps required to sort the array
@@ -90,14 +86,5 @@ class Node(object):
         self.data = this
 
 
-
-
-
 if __name__ == '__main__':
     main()
-
-
-
-
-
-

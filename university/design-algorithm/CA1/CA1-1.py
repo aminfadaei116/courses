@@ -4,6 +4,7 @@ Created on Fri Oct 25 00:06:14 2019
 
 @author: Asus
 """
+
 def checksum(arr):
     result = 1
     for i in range(len(arr)):
@@ -45,15 +46,15 @@ def clean(arr):
         result[arr[i] - 1] = i + 1
     return result
 
-number = int(input())
-aranged = [i for i in range(1, number + 1)]
-debug_numbers = [int(i) for i in input()]
-debug_numbers.reverse()
-unclean = merge_unsort(aranged, debug_numbers)
-clean = clean(unclean)
-print(checksum(clean))
+def main():
+    number = int(input())
+    aranged = [i for i in range(1, number + 1)]
+    debug_numbers = [int(i) for i in input()]
+    debug_numbers.reverse()
+    unclean = merge_unsort(aranged, debug_numbers)
+    clean = clean(unclean)
+    print(checksum(clean))
 
-
-
-
-
+if __name__ == '__main__':
+    main()
+    

@@ -39,8 +39,12 @@ def merge(arr1, arr2):
         result.append(i)
     return result
 
+def main():
+    input_list = [int(i) for i in input().split()]
+    res = merge_sort(input_list)
+    print(res)
+    print(checksum(input_list))
 
-input_list = [int(i) for i in input().split()]
-res = merge_sort(input_list)
-print(res)
-print(checksum(input_list))
+if __name__ == '__main__':
+    main()
+    

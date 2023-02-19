@@ -1,4 +1,6 @@
 import heapq
+
+
 def main():
     incode = input().split()
     N = int(incode[0])
@@ -7,7 +9,6 @@ def main():
     gold_sorted = (sorted(gold))
     easy = []
     sums = 0
-
 
     for i in range(N):
         easy.append(gold_sorted[i])
@@ -19,14 +20,5 @@ def main():
         heapq.heappush(easy,int(k/2))
     print(-sums)
 
-
-
-
 if __name__ == '__main__':
     main()
-
-
-
-
-
-

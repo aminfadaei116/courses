@@ -5,7 +5,6 @@ def main():
     my_list= (input().split(' '))
     print(str((find(my_list,None))))
 
-
 def find (word, result):
     if  result == '':
         return "NULL"
@@ -21,9 +20,6 @@ def find (word, result):
             break
         output+=temp[i]
     return find(word,output)
-
-
-
 
 if __name__ == '__main__':
     main()

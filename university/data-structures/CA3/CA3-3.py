@@ -1,4 +1,5 @@
 
+
 def main():
     number = int(input())
     mine_number =(list(map(int, input().split())))

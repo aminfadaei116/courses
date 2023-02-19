@@ -10,7 +10,6 @@ def main():
     else:
         print(findbest(int(capacity), price, weight, int(number)))
 
-
 def findbest(capacity, price, weight, num):
 
     if  num == 1 :
@@ -22,7 +21,6 @@ def findbest(capacity, price, weight, num):
 
     return max(findbest(capacity-weight[num-1],price[:num-1],weight[:num-1],num-1)+price[num-1],
         findbest(capacity, price[:num-1], weight[:num-1], num-1))
-
 
 if __name__ == '__main__':
     main()

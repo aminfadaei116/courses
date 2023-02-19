@@ -5,10 +5,6 @@ Created on Mon Nov 11 18:26:52 2019
 @author: Asus
 """
 
-
-
-  
-
 def main():
     # getting the inputs
    n, m, k = [int(i) for i in input().split()]
@@ -23,7 +19,5 @@ def main():
    for i in range(n):
        table.append([int(i) for i in input().split()])
        
-       
-    
 if __name__ == '__main__':
     main()

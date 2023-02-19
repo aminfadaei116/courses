@@ -43,13 +43,18 @@ class Graph :
                     ready_yals_n.append(other)
                     ready_yals_w.append(w + self.nodes[new][other])
 
-info = list(map(int, input().split()))
-n, s, t = info[0], info[1], info[2]
-graph = Graph()
-for i in range(n):
-    elev = list(map(int, input().split()))[1:]
-    for j,e in enumerate(elev):
-        graph.add_node(e)
-        for k in range(j):
-            graph.add_yal(e, elev[k])
-print(graph.dijkstra(s,t))
+def main():
+    info = list(map(int, input().split()))
+    n, s, t = info[0], info[1], info[2]
+    graph = Graph()
+    for i in range(n):
+        elev = list(map(int, input().split()))[1:]
+        for j,e in enumerate(elev):
+            graph.add_node(e)
+            for k in range(j):
+                graph.add_yal(e, elev[k])
+    print(graph.dijkstra(s,t))
+
+if __name__ == '__main__':
+    main()
+    

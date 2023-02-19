@@ -14,24 +14,28 @@ def idk(acidi_list, iterator, n, sumi, fuck):
     fuck.append(sumi + acidi_list[iterator])
     idk(acidi_list, in_chiz, n, sumi + acidi_list[iterator], fuck)
     
+def main():
+    n = int(input())
+    acidi = []
 
-n = int(input())
-acidi = []
+    for i in range(n):
+        info = input().split()
+        if info[0] == "acid":
+            acidi.append(int(info[1]) * int(info[2]))
+        else:
+            acidi.append(-int(info[1]) * int(info[2]))
 
-for i in range(n):
-    info = input().split()
-    if info[0] == "acid":
-        acidi.append(int(info[1]) * int(info[2]))
+    fuck = []
+    sumi = 0
+    iterator = 0
+
+    idk(acidi, iterator, n, sumi, fuck)
+
+    if 0 in fuck:
+        print("yes")
     else:
-        acidi.append(-int(info[1]) * int(info[2]))
+        print("no")
 
-fuck = []
-sumi = 0
-iterator = 0
-
-idk(acidi, iterator, n, sumi, fuck)
-
-if 0 in fuck:
-    print("yes")
-else:
-    print("no")
+if __name__ == '__main__':
+    main()
+    

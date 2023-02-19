@@ -1,3 +1,5 @@
+
+
 def BFS(graph, nodes, s, e):
     queue = []
     for i in nodes:
@@ -12,18 +14,22 @@ def BFS(graph, nodes, s, e):
             queue.append([i, u[1] + 1])
     return -1
 
-n = int(input())
-nodes = {}
-graph = {}
-for i in range(n):
-    a = list(map(int, input().split()))
-    nodes[i] = set(a)
-    edges = []
-    for j in graph:
-        if nodes[j] & nodes[i]:
-            edges += [j]
-            graph[j] += [i]
-    graph[i] = edges
+def main():
+    n = int(input())
+    nodes = {}
+    graph = {}
+    for i in range(n):
+        a = list(map(int, input().split()))
+        nodes[i] = set(a)
+        edges = []
+        for j in graph:
+            if nodes[j] & nodes[i]:
+                edges += [j]
+                graph[j] += [i]
+        graph[i] = edges
 
-a, b = list(map(int, input().split()))
-print(BFS(graph, nodes, a, b))
+    a, b = list(map(int, input().split()))
+    print(BFS(graph, nodes, a, b))
+
+if __name__ == '__main__':
+    main()
