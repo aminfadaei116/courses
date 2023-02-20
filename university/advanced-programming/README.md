@@ -1,2 +1,11 @@
 # Advanced-Programming-Course
-The following repository contains my uploaded code for advanced programming course.
+
+
+Instructor: `Ramtin Khosravi`
+
+Date of course: `Fall 2019`
+
+
+assignment syllabus
+-
+-
