@@ -1,2 +1,10 @@
 # Pattern-Recognition-Course
-The following repository contains my uploaded code for Pattern recognition.
+
+Instructor: Babak N Araabi
+Date of course: Winter 2019
+
+
+assignment syllabus
+-
+-
+
