@@ -1,11 +1,9 @@
-# Pattern-Recognition-Course
-
-Instructor: `Babak N Araabi`
-
-Date of course: `Winter 2019`
+# Advanced-Programming-Course
 
 
-assignment syllabus
--
--
+## Instructor: `Dr. Faghih`
+
+## Date of course: `Winter 2019`
+
+## Programming languages: `python`
 
