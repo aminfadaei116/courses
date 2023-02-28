@@ -1,9 +1,9 @@
-# Advanced-Programming-Course
+# data-structure-Course
 
 
-### Instructor: `Dr. Faghih`
+### Instructor: `Dr. Mahnini`
 
-### Date of course: `Winter 2019`
+### Date of course: `Fall 2019`
 
 ### Programming languages: `python`
 

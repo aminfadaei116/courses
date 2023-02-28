@@ -1,13 +1,13 @@
 # Advanced-Programming-Course
 
 
-## Instructor: `Ramtin Khosravi`
+### Instructor: `Ramtin Khosravi`
 
-## Date of course: `Fall 2019`
+### Date of course: `Fall 2019`
 
-## Programming languages: `C++`
+### Programming languages: `C++`
 
-## Assignment Syllabus:
+### Assignment Syllabus:
 
 - CA1: `Standard I/O`, `Vector`
 - CA2: `recursion programming`
