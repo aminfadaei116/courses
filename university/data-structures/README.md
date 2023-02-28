@@ -1,9 +1,9 @@
 # Advanced-Programming-Course
 
 
-## Instructor: `Dr. Faghih`
+### Instructor: `Dr. Faghih`
 
-## Date of course: `Winter 2019`
+### Date of course: `Winter 2019`
 
-## Programming languages: `python`
+### Programming languages: `python`
 
