@@ -7,7 +7,7 @@
 ## Date of course: 
 `Fall 2019`
 
-Programming languages: `C++`
+## Programming languages: `C++`
 
 Assignment Syllabus:
 
