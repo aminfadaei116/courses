@@ -8,16 +8,15 @@ This is consisted of `online` and `university` courses I have taken in the past 
 
 ## Univeristy
 
-- Deep Learning Applications in Computer Vision
-- Machine Vision
-- Pattern Recognition
+- Deep Learning Applications in Computer Vision ([link]())
+- Machine Vision ([link]())
+- Pattern Recognition ([link]())
 
-- Design Algorithm
-- Data Structure
-- Advanced Programming
+- Design Algorithm ([link]())
+- Data Structure ([link]())
+- Advanced Programming ([link]())
 
 
 ## Online
 
-- DeepLearning.AI TensorFlow Developer
-- Generative Adversarial Networks (GANs) 
+- DeepLearning.AI TensorFlow Developer ([link]())

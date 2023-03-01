@@ -3,6 +3,8 @@
 
 ### Instructor: `Laurence Moroney`
 
+### link: https://www.coursera.org/professional-certificates/tensorflow-in-practice
+
 ### Date of course: `Summer 2022`
 
 ### Programming languages: `python`
