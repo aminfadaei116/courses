@@ -10,8 +10,7 @@
 ### Assignment Syllabus:
 
 - CA1: `Classification`, `Adversarial Attacks on Neural Networks`, `Denoising`
-- CA2: `Edge detection`, `key-point detection (DoG)`, `RANSAC`
-- CA3: `Depth estimation using SFM`, `Camera Calibration`
-- CA4: `Color space`, `Neural Networks`
-- CA5: `Color space`, `Neural Networks`
-- Final-Project: `Color space`, `Neural Networks`
+- CA2: `Pose estimation`, `Anomaly Detection`
+- CA3: `Sentiment Analysis`, `Recurrent neural network`
+- CA4: `Speech to Text Recognition`
+- Final-Project: `Hierarchical Multi-Scale Attention for Semantic Segmentation`
