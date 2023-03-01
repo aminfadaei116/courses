@@ -1,22 +1,23 @@
-# courses
+# Courses
 
-This repository consists of most of the programming course I have taken since 2017.
+This repository consists of most of the programming course I have taken since 2017. This includes the courses I have taken in `university` and as a `online` course.
 
-This is consisted of `online` and `university` courses I have taken in the past years.
+I hope that you find this repository useful, and if you do giving a star will be appreciated.
 
 
+Here is an easy way for navigating to the courses.
 
 ## Univeristy
 
-- Deep Learning Applications in Computer Vision ([link]())
-- Machine Vision ([link]())
-- Pattern Recognition ([link]())
+- Deep Learning Applications in Computer Vision ([link](https://github.com/aminfadaei116/courses/tree/main/university/deep-learning-applications))
+- Machine Vision ([link](https://github.com/aminfadaei116/courses/tree/main/university/machine-vision))
+- Pattern Recognition ([link](https://github.com/aminfadaei116/courses/tree/main/university/pattern-recognition))
 
-- Design Algorithm ([link]())
-- Data Structure ([link]())
-- Advanced Programming ([link]())
+- Design Algorithm ([link](https://github.com/aminfadaei116/courses/tree/main/university/design-algorithm))
+- Data Structure ([link](https://github.com/aminfadaei116/courses/tree/main/university/data-structures))
+- Advanced Programming ([link](https://github.com/aminfadaei116/courses/tree/main/university/advanced-programming))
 
 
 ## Online
 
-- DeepLearning.AI TensorFlow Developer ([link]())
+- DeepLearning.AI TensorFlow Developer ([link](https://github.com/aminfadaei116/courses/tree/main/online/DeepLearning.AI%20TensorFlow%20Developer))
