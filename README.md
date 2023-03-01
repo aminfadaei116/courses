@@ -5,7 +5,7 @@ This repository consists of most of the programming course I have taken since 20
 I hope that you find this repository useful, and if you do giving a star will be appreciated.
 
 
-Here is an easy way for navigating to the courses.
+### Here is an easy way for navigating to the courses.
 
 ## Univeristy
 
