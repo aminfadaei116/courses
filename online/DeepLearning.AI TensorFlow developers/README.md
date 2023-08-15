@@ -5,7 +5,7 @@
 
 ### link: https://www.coursera.org/professional-certificates/tensorflow-in-practice
 
-### Date of course: `Summer 2022`
+### Date of course: `Winter 2023`
 
 ### Programming languages: `python`
 
