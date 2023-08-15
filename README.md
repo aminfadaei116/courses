@@ -20,4 +20,5 @@ I hope that you find this repository useful, and if you do giving a star will be
 
 ## Online
 
-- DeepLearning.AI TensorFlow Developer ([link](https://github.com/aminfadaei116/courses/tree/main/online/DeepLearning.AI%20TensorFlow%20Developer))
+- DeepLearning.AI TensorFlow Developer ([link](https://github.com/aminfadaei116/courses/tree/main/online/DeepLearning.AI%20TensorFlow%20developers))
+- Generative AI with Large Language Models ([link](https://github.com/aminfadaei116/courses/tree/main/online/Generative%20AI%20with%20Large%20Language%20Models))
